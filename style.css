@@ -1,0 +1,141 @@
+/*PALETAS DE COLORES
+https://color.adobe.com/es/explore
+*/
+/*FUENTES https://fonts.google.com/ */
+
+/*Selector de etiqueta*/
+body {
+    background-color: #DEEFE7;
+   
+    /*font-family:'Courier New', Courier, monospace*/
+    font-family: "sans-serif";
+    font-weight: bold;
+    font-style:normal;
+}  
+h1{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background-color:#B4BEC9;
+}
+
+h2{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background-color:#B4BEC9;
+}
+h3{
+    background-color:#4749b1; 
+}
+/*Selector de clases*/
+.parrafo1{
+    color:#000000
+}
+.parrafo2
+{
+color: rgb(2, 2, 59)
+}
+.subtitulorojo{
+    color:rgb(123, 233, 248)
+}
+/*Selector de ID*/
+#Otrosdatos{
+color:#f5e7e8
+}
+/*SELECTOR UNIVERSAL*/
+*{
+    margin:10;
+    padding:0;
+    box-sizing: border-box;
+}
+/* styles.css Aquí hay más paletas de colores gradientes en CSS: https://www.mshr.app/ */
+
+body {
+    background-color: hsla(197, 92%, 60%, 1);
+    background-image: radial-gradient(circle at 96% 96%, hsla(55.36363636363636, 93%, 54%, 0.85) 5%, transparent 86%), radial-gradient(circle at 5% 90%, hsla(229, 71%, 68%, 1) 13%, transparent 65%), radial-gradient(circle at 57% 73%, hsla(308, 93%, 51%, 1) 3%, transparent 89%), radial-gradient(circle at 20% 4%, hsla(318, 60%, 76%, 1) 22%, transparent 56%), radial-gradient(circle at 74% 15%, hsla(324, 92%, 59%, 1) 13%, transparent 57%);
+    background-blend-mode: normal, normal, normal, normal, normal;
+}
+
+/*otra de gradiantes https://cssgradient.io/*/
+body{
+    background: rgb(255,126,220);
+    background: linear-gradient(215deg, rgba(255,126,220,0.5857619382022472) 10%, rgba(255,253,77,0.6756495786516854) 26%, rgba(82,226,220,0.6363237359550562) 48%, rgba(125,27,237,0.5604810393258427) 79%, rgba(27,47,255,0.5099192415730337) 96%);
+
+}
+
+/*CAMBIAR ESTILO DE IMAGEN*/
+.familia{
+    width: 300px;
+    margin:2px;
+    /*height: 5cm;*/
+    border-radius: 100px;
+    border:solid;/*solid,double,varias propiedades*/
+    color:#fffd71;
+    padding: 15px;
+}
+.pingu {
+    width: 500px;
+    margin: 2px;
+    /*height: 5cm;*/
+    border-radius: 100px;
+    border: solid; /* solid, double, varias propiedades */
+    color: #fffd71;
+    padding: 15px;
+}
+
+
+/*CLASE 16 JULIO*/
+.container{
+    /* width:200 px;
+    height:300 px; */
+    background:white;
+    background-image: url("https://st2.depositphotos.com/3752143/5461/v/450/depositphotos_54614235-stock-illustration-ice-background.jpg");
+    padding:15px;
+    display: flex; 
+    flex-direction: row-reverse;
+    /*Sin los dos primeros no funciona el justify-content*/
+    justify-content: center;
+    align-items: center; /*PARA QUE DE IZQUIERA DERECHA, ARRIBA ABAJO ESTE CENTRADO*/
+}
+.menu{
+    background-color: blueviolet;
+    margin: 5px;
+    padding:0;
+}
+.menu ul{
+    display:flex;
+    justify-content: center;
+    list-style:none;
+    margin:0;
+}
+.menu ul li a{
+    display:block;
+    color: beige;
+    text-align:center;
+    padding: 14px 20px ;
+}
+.info{
+   
+    padding: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.evoluciona {
+    width: 600px;
+    margin: 2px;
+    /*height: 5cm;*/
+    border-radius: 100px;
+    border: solid; /* solid, double, varias propiedades */
+    color: #146fb9;
+    padding: 10px;
+}
+.pingu1 {
+    width: 250px;
+    margin: 2px;
+    /*height: 5cm;*/
+    border-radius: 100px;
+    border: solid; /* solid, double, varias propiedades */
+    color: #fffd71;
+    padding: 15px;
+}
